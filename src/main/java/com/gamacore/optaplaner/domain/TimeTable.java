@@ -18,7 +18,7 @@ public class TimeTable {
     @ProblemFactCollectionProperty
     private List<Room> roomList;
     @PlanningEntityCollectionProperty
-    private List<Lesson> lessonList;
+    private List<Session> sessionList;
 
     @PlanningScore
     private HardSoftScore score;
@@ -26,10 +26,10 @@ public class TimeTable {
     public TimeTable() {
     }
 
-    public TimeTable(List<Timeslot> timeslotList, List<Room> roomList, List<Lesson> lessonList) {
+    public TimeTable(List<Timeslot> timeslotList, List<Room> roomList, List<Session> sessionList) {
         this.timeslotList = timeslotList;
         this.roomList = roomList;
-        this.lessonList = lessonList;
+        this.sessionList = sessionList;
     }
 
     public List<Timeslot> getTimeslotList() {
@@ -40,8 +40,8 @@ public class TimeTable {
         return roomList;
     }
 
-    public List<Lesson> getLessonList() {
-        return lessonList;
+    public List<Session> getLessonList() {
+        return sessionList;
     }
 
     public HardSoftScore getScore() {

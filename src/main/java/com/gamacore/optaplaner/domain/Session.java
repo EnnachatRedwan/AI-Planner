@@ -5,7 +5,7 @@ import org.optaplanner.core.api.domain.lookup.PlanningId;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
 
 @PlanningEntity
-public class Lesson {
+public class Session {
 
     @PlanningId
     private Long id;
@@ -19,10 +19,10 @@ public class Lesson {
     @PlanningVariable
     private Room room;
 
-    public Lesson() {
+    public Session() {
     }
 
-    public Lesson(Long id, String subject, String teacher, String studentGroup) {
+    public Session(Long id, String subject, String teacher, String studentGroup) {
         this.id = id;
         this.subject = subject;
         this.teacher = teacher;
