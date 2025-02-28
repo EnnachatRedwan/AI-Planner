@@ -1,0 +1,100 @@
+{
+  "timeslotList": [
+    {
+      "dayOfWeek": "MONDAY",
+      "startTime": "08:30:00",
+      "endTime": "09:30:00"
+    },
+    {
+      "dayOfWeek": "MONDAY",
+      "startTime": "09:30:00",
+      "endTime": "10:30:00"
+    },
+    {
+      "dayOfWeek": "MONDAY",
+      "startTime": "11:30:00",
+      "endTime": "12:30:00"
+    }
+  ],
+  "roomList": [
+    {
+      "name": "Room A"
+    },
+    {
+      "name": "Room B"
+    }
+  ],
+  "lessonList": [
+    {
+      "id": 1,
+      "subject": "Math",
+      "teacher": "A. Turing",
+      "studentGroup": "9th grade",
+      "timeslot": {
+        "dayOfWeek": "MONDAY",
+        "startTime": "08:30:00",
+        "endTime": "09:30:00"
+      },
+      "room": {
+        "name": "Room A"
+      }
+    },
+    {
+      "id": 2,
+      "subject": "Chemistry",
+      "teacher": "M. Curie",
+      "studentGroup": "9th grade",
+      "timeslot": {
+        "dayOfWeek": "MONDAY",
+        "startTime": "09:30:00",
+        "endTime": "10:30:00"
+      },
+      "room": {
+        "name": "Room A"
+      }
+    },
+    {
+      "id": 3,
+      "subject": "French",
+      "teacher": "M. Curie",
+      "studentGroup": "10th grade",
+      "timeslot": {
+        "dayOfWeek": "MONDAY",
+        "startTime": "11:30:00",
+        "endTime": "12:30:00"
+      },
+      "room": {
+        "name": "Room A"
+      }
+    },
+    {
+      "id": 4,
+      "subject": "History",
+      "teacher": "I. Jones",
+      "studentGroup": "10th grade",
+      "timeslot": {
+        "dayOfWeek": "MONDAY",
+        "startTime": "08:30:00",
+        "endTime": "09:30:00"
+      },
+      "room": {
+        "name": "Room B"
+      }
+    },
+    {
+      "id": 5,
+      "subject": "History",
+      "teacher": "I. Jones",
+      "studentGroup": "11th grade",
+      "timeslot": {
+        "dayOfWeek": "MONDAY",
+        "startTime": "09:30:00",
+        "endTime": "10:30:00"
+      },
+      "room": {
+        "name": "Room B"
+      }
+    }
+  ],
+  "score": "0hard/0soft"
+}
